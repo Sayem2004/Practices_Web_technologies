@@ -1,1 +1,0 @@
-# Practices_Web_technologies
