@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colspan</title>
+</head>
+<body>
+    <table>
+        <caption style="margin:4px;background-color: rgb(50, 136, 211);font-size: 30px;font-family: cursive;">Member</caption>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th colspan="2">Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>SAYEM</td>
+                <td>015666</td>
+                <td rowspan="3">07089</td>
+
+            </tr>
+            <tr>
+                <td>12233</td>
+                <td>AL-IMRAN</td>
+                <td>017014</td>
+
+            </tr>
+            <tr>
+                <td>122</td>
+                <td>TTTT</td>
+                <td>017014</td>
+                
+
+            </tr>
+        </tbody>
+        <style>
+            table, td, th
+            {
+                border: 3px solid red;
+                text-align: center;
+
+            }
+
+            table{
+                border-collapse: collapse;
+                width: 300px;
+                height: 300px;
+            }
+
+
+        </style>
+      
+    </table>
+    
+</body>
+</html>
